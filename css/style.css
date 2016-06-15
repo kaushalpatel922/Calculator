@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+  color: white;
+}
+
+table {
+  margin: auto;
+  padding: 0px;
+  width: 300px;
+  border-spacing: 5px;
+  background-color: pink;
+}
+
+td {
+  background-color: grey;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.calc {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px
+}
