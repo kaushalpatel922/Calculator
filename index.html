@@ -7,44 +7,45 @@
     <script src="js/main.js" charset="utf-8"></script>
   </head>
   <body>
+    
     <div id="container">
       <div id="inner_container">
         <input id="display" type="text">
 
         <table id="button_container">
           <tr class="calc row">
-            <td class="calc btn">AC</td>
-            <td class="calc btn">C</td>
-            <td class="calc btn">&#177;</td>
-            <td class="calc btn operator">&divide;</td>
+            <td class="calc btn" id="clear_all">AC</td>
+            <td class="calc btn" id="c">C</td>
+            <td class="calc btn num" id="negative">&#177;</td>
+            <td class="calc btn operator" id="/">&divide;</td>
           </tr>
 
           <tr class="calc row">
-            <td class="calc btn">7</td>
-            <td class="calc btn">8</td>
-            <td class="calc btn">9</td>
-            <td class="calc btn operator">x</td>
+            <td class="calc btn num" id="7">7</td>
+            <td class="calc btn num" id="8">8</td>
+            <td class="calc btn num" id="9">9</td>
+            <td class="calc btn operator" id="*">x</td>
           </tr>
 
           <tr class="calc row">
-            <td class="calc btn">4</td>
-            <td class="calc btn">5</td>
-            <td class="calc btn">6</td>
-            <td class="calc btn operator">-</td>
+            <td class="calc btn num" id="4">4</td>
+            <td class="calc btn num" id="5">5</td>
+            <td class="calc btn num" id="6">6</td>
+            <td class="calc btn operator" id="-">-</td>
           </tr>
 
           <tr class="calc row">
-            <td class="calc btn">1</td>
-            <td class="calc btn">2</td>
-            <td class="calc btn">3</td>
-            <td class="calc btn operator">+</td>
+            <td class="calc btn num" id="1">1</td>
+            <td class="calc btn num" id="2">2</td>
+            <td class="calc btn num" id="3">3</td>
+            <td class="calc btn operator" id="+">+</td>
           </tr>
 
           <tr class="calc row">
             <td class=""></td>
-            <td class="calc btn">0</td>
-            <td class="calc btn">.</td>
-            <td class="calc btn">=</td>
+            <td class="calc btn num" id="0">0</td>
+            <td class="calc btn num" id=".">.</td>
+            <td class="calc btn num" id="equals">=</td>
           </tr>
         </table>
       </div>
